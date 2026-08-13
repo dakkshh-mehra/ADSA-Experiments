@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class HashIndex {
 
-    // Same logic as your Python function
     public static int hashIndex(int key, int tableSize) {
         return key % tableSize;
     }
