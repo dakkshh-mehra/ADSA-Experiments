@@ -32,7 +32,6 @@ class BSTSearch {
         return root;
     }
 
-    // Search key in BST
     boolean search(Node root, int key) {
         if (root == null) {
             return false;
@@ -97,7 +96,7 @@ class BSTSearch {
         System.out.print("\nPostorder: ");
         tree.postorder(tree.root);
 
-        // Search operation
+
         System.out.print("\nEnter search key: ");
         int key = sc.nextInt();
 
